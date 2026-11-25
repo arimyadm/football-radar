@@ -1,0 +1,9 @@
+name = "football-radar-api"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+[triggers]
+crons = ["*/30 * * * *"]
+[[d1_databases]]
+binding = "DB"
+database_name = "football-radar"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
